@@ -1,0 +1,10 @@
+quadtree/Result.class
+quadtree/RQuadTree.class
+handler/LambdaHandler.class
+quadtree/ImagePNG.class
+service/CompressionService$CompressionResult.class
+service/CompressionService.class
+handler/SqsHandler.class
+quadtree/AvlLamda.class
+quadtree/Main.class
+quadtree/AVL.class
