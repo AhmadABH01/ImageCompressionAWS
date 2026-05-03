@@ -35,7 +35,7 @@ metadata:
     - quadtree
     - java
   links:
-    - url: https://github.com/ahmadabh01/imagecompressionaws
+    - url: https://github.com/AhmadABH01/ImageCompressionAWS
       title: GitHub Repository
       icon: github
 spec:
@@ -97,11 +97,11 @@ metadata:
     - maven
     - aws-lambda
   annotations:
-    github.com/project-slug: ahmadabh01/imagecompressionaws
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws
+    github.com/project-slug: AhmadABH01/ImageCompressionAWS
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS
     backstage.io/techdocs-ref: dir:.
   links:
-    - url: https://github.com/ahmadabh01/imagecompressionaws/blob/master/pom.xml
+    - url: https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/pom.xml
       title: pom.xml
 spec:
   type: service
@@ -127,7 +127,7 @@ metadata:
     - aws-lambda
     - handler
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/handler/LambdaHandler.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/handler/LambdaHandler.java
 spec:
   type: service
   lifecycle: experimental
@@ -159,7 +159,7 @@ metadata:
     - handler
     - sqs
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/handler/SqsHandler.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/handler/SqsHandler.java
 spec:
   type: service
   lifecycle: experimental
@@ -190,7 +190,7 @@ metadata:
     - java
     - service
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/service/CompressionService.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/service/CompressionService.java
 spec:
   type: library
   lifecycle: experimental
@@ -221,7 +221,7 @@ metadata:
     - algorithm
     - quadtree
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/tree/master/src/main/java/quadtree
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/tree/master/src/main/java/quadtree
 spec:
   type: library
   lifecycle: experimental
@@ -244,7 +244,7 @@ metadata:
     - java
     - cli
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/quadtree/Main.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/quadtree/Main.java
 spec:
   type: service
   lifecycle: experimental
@@ -271,7 +271,7 @@ metadata:
     - iac
     - aws
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/teraform/main.tf
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/teraform/main.tf
 spec:
   type: service
   lifecycle: experimental
@@ -301,7 +301,7 @@ metadata:
     image. Supports lambda and phi compression by collapsing similar nodes.
   tags: [java, class]
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/quadtree/RQuadTree.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/quadtree/RQuadTree.java
 spec:
   type: library
   lifecycle: experimental
@@ -324,7 +324,7 @@ metadata:
     deduplicate colors and support phi compression.
   tags: [java, class]
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/quadtree/AVL.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/quadtree/AVL.java
 spec:
   type: library
   lifecycle: experimental
@@ -342,7 +342,7 @@ metadata:
     lambda-threshold compression in O(N).
   tags: [java, class]
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/quadtree/AvlLamda.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/quadtree/AvlLamda.java
 spec:
   type: library
   lifecycle: experimental
@@ -360,7 +360,7 @@ metadata:
     accessors and PNG read/write helpers.
   tags: [java, class]
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/quadtree/ImagePNG.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/quadtree/ImagePNG.java
 spec:
   type: library
   lifecycle: experimental
@@ -378,7 +378,7 @@ metadata:
     operations (height + tree + optional removed quad).
   tags: [java, class]
   annotations:
-    backstage.io/source-location: url:https://github.com/ahmadabh01/imagecompressionaws/blob/master/src/main/java/quadtree/Result.java
+    backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/src/main/java/quadtree/Result.java
 spec:
   type: library
   lifecycle: experimental
