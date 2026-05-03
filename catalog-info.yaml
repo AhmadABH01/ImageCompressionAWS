@@ -24,7 +24,6 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: image-compression-aws
-  annotations: backstage.io/techdocs-ref: url:https://github.com/AhmadABH01/ImageCompressionAWS/tree/master/
   description: >
     Serverless image compression service on AWS using R-quadtree algorithms
     (Lambda and Phi compression). Includes Java code, Terraform IaC, and the
