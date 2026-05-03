@@ -2,7 +2,7 @@ site_name: ImageCompressionAWS
 site_description: Serverless image compression service on AWS using R-quadtree algorithms.
 
 nav:
-  - Home: README.md
+  - Home: index.md
 
 plugins:
   - techdocs-core
