@@ -99,7 +99,7 @@ metadata:
   annotations:
     github.com/project-slug: AhmadABH01/ImageCompressionAWS
     backstage.io/source-location: url:https://github.com/AhmadABH01/ImageCompressionAWS
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/AhmadABH01/ImageCompressionAWS/tree/master/
   links:
     - url: https://github.com/AhmadABH01/ImageCompressionAWS/blob/master/pom.xml
       title: pom.xml
