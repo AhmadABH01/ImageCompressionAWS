@@ -38,6 +38,8 @@ metadata:
     - url: https://github.com/AhmadABH01/ImageCompressionAWS
       title: GitHub Repository
       icon: github
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/AhmadABH01/ImageCompressionAWS/tree/master/
 spec:
   owner: team-image-compression
   domain: image-processing
